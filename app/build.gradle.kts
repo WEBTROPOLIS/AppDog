@@ -56,7 +56,7 @@ dependencies {
 
     //glide
     implementation ("com.github.bumptech.glide:glide:4.15.1")
-    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.15.1")
 
     //ROOM
     implementation ("androidx.room:room-runtime:2.5.2")
@@ -73,4 +73,27 @@ dependencies {
     //livedata
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+
+    // dependencias de mockWebserver
+    testImplementation ("org.mockito:mockito-core:3.6.0")
+    testImplementation ("org.mockito:mockito-inline:3.6.0")
+
+    // Dependencia de OkHttp
+    implementation ("com.squareup.okhttp3:okhttp:4.9.3")
+    // Dependencia de OkHttp MockWebServer (para pruebas)
+    testImplementation ("com.squareup.okhttp3:mockwebserver:4.9.3")
+    testImplementation ("io.mockk:mockk:1.12.0")
+
+    // For Robolectric tests.
+    testImplementation("com.google.dagger:hilt-android-testing:2.44")
+    // ...with Kotlin.
+    kspTest("com.google.dagger:hilt-android-compiler:2.44")
+
+
+    // For instrumented tests.
+    androidTestImplementation("com.google.dagger:hilt-android-testing:2.44")
+    // ...with Kotlin.
+    kspAndroidTest("com.google.dagger:hilt-android-compiler:2.44")
+
+
 }
