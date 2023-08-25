@@ -1,4 +1,4 @@
-package com.example.appdog
+package com.example.appdog.view
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +8,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.example.appdog.databinding.ItemBreedBinding
 import com.example.appdog.model.local.Dogs
-import kotlinx.coroutines.selects.select
 
 class BreedAdapter : RecyclerView.Adapter<BreedAdapter.VH>() {
     private var listBreed = listOf<Dogs>()

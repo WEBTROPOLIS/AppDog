@@ -1,9 +1,10 @@
-package com.example.appdog
+package com.example.appdog.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import com.example.appdog.databinding.ActivityMainBinding
+import com.example.appdog.view.BreedFragment
 import com.example.appdog.viewmodel.DogViewModel
 
 class MainActivity : AppCompatActivity() {

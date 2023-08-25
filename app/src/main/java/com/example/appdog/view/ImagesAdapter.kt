@@ -1,4 +1,4 @@
-package com.example.appdog
+package com.example.appdog.view
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.appdog.R
 import com.example.appdog.databinding.ItemImagesBinding
 import com.example.appdog.model.local.DogsImages
 

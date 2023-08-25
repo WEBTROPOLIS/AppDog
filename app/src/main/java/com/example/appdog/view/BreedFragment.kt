@@ -1,4 +1,4 @@
-package com.example.appdog
+package com.example.appdog.view
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.GridLayoutManager
+import com.example.appdog.R
 import com.example.appdog.databinding.FragmentBreedBinding
 import com.example.appdog.viewmodel.DogViewModel
 
